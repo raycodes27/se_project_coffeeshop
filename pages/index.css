@@ -6,3 +6,50 @@
   margin: 0 auto;
   color: red;
 }
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  background-image: url(images/background_header.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 800px;
+}
+
+.nav__logo{
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links{
+  position: relative;
+  list-style-type: none;
+  display: flex;
+  top:30px;
+  right: 80px;
+}
+
+.nav__link{
+  margin-right: 20px;
+}
+
+.header__image{
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
+
+.header__title{
+}
+
+.header__description{
+
+}
